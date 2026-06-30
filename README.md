@@ -4,9 +4,11 @@ This repository contains minimal reproduction scripts for the blog post:
 
 > **In-context learning of representations can be explained by induction circuits**
 > Andy Arditi (Northeastern University)
->
-> ICLR Blogposts 2026: https://iclr-blogposts.github.io/2026/blog/2026/iclr-induction/
-> LessWrong: https://www.lesswrong.com/posts/qtdSzLpQ8BXv6YANd/in-context-learning-of-representations-can-be-explained-by
+
+Links:
+
+- [ICLR 2026 blog post](https://iclr-blogposts.github.io/2026/blog/2026/iclr-induction/)
+- [LessWrong blog post](https://www.lesswrong.com/posts/qtdSzLpQ8BXv6YANd/in-context-learning-of-representations-can-be-explained-by)
 
 The blog post responds to [Park et al., 2025](https://arxiv.org/abs/2501.00070), who find that when LLMs process random walks on a graph in-context, their token representations come to mirror the graph's connectivity structure. We offer a simpler mechanistic explanation: the task can be solved by **induction circuits**, and the geometric structure of representations is a byproduct of **previous-token mixing** within those circuits.
 
